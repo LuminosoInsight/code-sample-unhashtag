@@ -32,6 +32,8 @@ The text is pseudo-randomly sampled from tweets collected in late 2013. Aside fr
 
 ## What to send us
 
-Send us a `.zip` or `.tar.gz` file of all the code you used to accomplish the task. If you depend on publically-available Python packages, include a list of those packages (a Pip `requirements.txt` file or a Setuptools `setup.py` file will do nicely). Include the evaluation results in a text file.
+Send us a `.zip` or `.tar.gz` file of all the code you used to accomplish the task to `hiring@luminoso.com`.
+
+If you depend on publicly-available Python packages, include a list of those packages (a Pip `requirements.txt` file or a Setuptools `setup.py` file will do nicely). Include the evaluation results in a text file.
 
 We hope to be able to run the code you send us, on different data than the included training and test data.
