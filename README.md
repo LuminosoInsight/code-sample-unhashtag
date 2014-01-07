@@ -32,8 +32,6 @@ The text is arbitrarily sampled from tweets collected in late 2013. Aside from l
 
 ## What to send us
 
-Send us a `.zip` or `.tar.gz` file of all the code you used to accomplish the task to `hiring@luminoso.com`. Include the evaluation results in a text file.
+Send us a `.zip` or `.tar.gz` file of all the code you used to accomplish the task to `hiring@luminoso.com`. Include the evaluation results in a text file. You can write your code in Python 2 or 3, and use any external Python packages you want, as long as they're publicly available.
 
-Code should run in Python 2.7 or 3.3. Using external Python packages is fine, as long as they're publicly available. If you use external packages, include a list of those packages (a Pip `requirements.txt` file or a Setuptools `setup.py` file will do nicely).
-
-We hope to be able to run the code you send us, on different data than the included training and test data.
+We're not going to use your code for any purpose except to see if you solved the task well. Submitting your code sample will impress us, not further our current projects. We do want to be able to run it, especially so we can see how it performs on different data from the included training and test data. To that end, please include a list of any external packages you depend on (a Pip `requirements.txt` file or a Setuptools `setup.py` file will do nicely), and include instructions on how to set up your code if it's non-trivial.
