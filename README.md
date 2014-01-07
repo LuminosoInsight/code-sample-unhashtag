@@ -1,6 +1,6 @@
 # unhashtag: a coding challenge
 
-Are you interested in working for [Luminoso](http://luminoso.com)? Great! We'd like to see what your code looks like, and how good you are at doing messy things with messy text.
+Are you interested in working for [Luminoso](http://luminoso.com)? Great! We'd like to see what your Python code looks like, and how good you are at doing messy things with messy text.
 
 ## Task: How do you separate words in Twitter hashtags?
 
@@ -28,12 +28,12 @@ An outline of what you'll need to do:
 
 Each file has 25,000 lines. The text is Unicode encoded in UTF-8. Most of the text is in English, but not all of it.
 
-The text is pseudo-randomly sampled from tweets collected in late 2013. Aside from limiting it to all-caps phrases, we have only minimally filtered it. Some of the text content may be offensive, and a *lot* of it may be insipid, and for that we apologize in advance.
+The text is arbitrarily sampled from tweets collected in late 2013. Aside from limiting it to all-caps phrases likely to be in English, we have only minimally filtered it. Some of the text content may be offensive, and a *lot* of it may be insipid, and for that we apologize in advance.
 
 ## What to send us
 
-Send us a `.zip` or `.tar.gz` file of all the code you used to accomplish the task to `hiring@luminoso.com`.
+Send us a `.zip` or `.tar.gz` file of all the code you used to accomplish the task to `hiring@luminoso.com`. Include the evaluation results in a text file.
 
-If you depend on publicly-available Python packages, include a list of those packages (a Pip `requirements.txt` file or a Setuptools `setup.py` file will do nicely). Include the evaluation results in a text file.
+Code should run in Python 2.7 or 3.3. Using external Python packages is fine, as long as they're publicly available. If you use external packages, include a list of those packages (a Pip `requirements.txt` file or a Setuptools `setup.py` file will do nicely).
 
 We hope to be able to run the code you send us, on different data than the included training and test data.
