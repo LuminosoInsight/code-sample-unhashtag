@@ -133,8 +133,7 @@ class Unhashtagger(object):
 
 def main():
     """
-    Convert text with spaces on standard input, to text without spaces on
-    standard output. This version runs on Python 2.
+    Create an Unhashtagger, train it, and evaluate it.
     """
     unhashtagger = Unhashtagger()
     unhashtagger.train(iter_lines(DATA_DIR + '/training_orig.txt'))
