@@ -39,12 +39,6 @@ class Unhashtagger(object):
         # TODO: Set up whatever state you need to.
         pass
 
-    def to_hashtag(self, text):
-        """
-        Convert text with spaces to a 'hashtag' without spaces.
-        """
-        return '#' + text.lower().replace(' ', '')
-
     def train(self, examples):
         """
         Takes an in iterator of training examples, containing text in all caps
@@ -59,14 +53,15 @@ class Unhashtagger(object):
     def from_hashtag(self, text):
         """
         Converts text in hashtag form to uppercase text with its spaces restored.
-
-        The implementation we've got here is an utterly terrible baseline. Because
-        most tweets are in English, and lots of English words end in 'e', this
-        function just inserts a space after every letter 'e'. You can definitely
-        do better than that.
         """
-        # TODO
+        # TODO: This is a bad heuristic and you can do better.
         return text.lstrip('#').replace('e', 'e ').upper().strip()
+
+    def to_hashtag(self, text):
+        """
+        Convert text with spaces to a 'hashtag' without spaces.
+        """
+        return '#' + text.lower().replace(' ', '')
 
     def evaluate(self):
         """
@@ -148,7 +143,6 @@ def main():
     print('Precision: %5.2f%%' % (results['precision'] * 100))
     print('Recall:    %5.2f%%' % (results['recall'] * 100))
     print('F1 score:  %5.2f%%' % (results['f1'] * 100))
-
 
 
 if __name__ == '__main__':
