@@ -121,6 +121,14 @@ class Unhashtagger(object):
                         "and your text is %r. The gold standard has %r where your text "
                         "has %r." % (gold_standard, unhashtagged, gold_char, output_char)
                     )
+
+        # If there are no spaces, we'd have to carefully avoid dividing by
+        # zero at multiple steps, just to return a score of 0% in the end.
+        # Or we can just say there were no spaces.
+        if precision_total == 0:
+            raise ValueError("You didn't output any spaces.")
+
+        # Calculate the statistics
         precision = float(precision_correct) / precision_total
         recall = float(recall_correct) / recall_total
         f1 = (2 * precision * recall) / (precision + recall)
