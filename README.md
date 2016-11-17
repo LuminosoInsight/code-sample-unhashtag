@@ -13,7 +13,7 @@ The popularity of Twitter, however, has created a new way to annoyingly emphasiz
     Before: HEY PAY ATTENTION TO ME
     After: #heypayattentiontome
 
-In this repository, we've created a data set that takes this to its natural conclusion. We extracted 50,000 all-caps phrases from Twitter, and made an alternate version of them that converts them to a lowercase hashtag, with no spaces or apostrophes.
+In this repository, we've created a data set that takes this to its natural conclusion. We extracted a lot of all-caps phrases from Twitter, and made an alternate version of them that converts them to a lowercase hashtag, with no spaces or apostrophes.
 
 Your task is to write Python code that reverses this process, determining where to insert spaces into the hashtags to separate them into words again.
 
