@@ -42,6 +42,6 @@ The text is arbitrarily sampled from tweets collected in 2015. Aside from limiti
 
 ## Submitting your code
 
-Send us a `.zip` or `.tar.gz` file of all the code you used to accomplish the task to `rspeer@luminoso.com`. Include a text file that describes your approach and our evaluation results. Please send it only to us, and don't make your code publicly available.
+Send us a `.zip` or `.tar.gz` file of all the code you used to accomplish the task to `rspeer@luminoso.com`. Include a text file that describes your approach and your evaluation results. Please send it only to us, and don't make your code publicly available.
 
 We do want to be able to run it, especially so we can see how it performs on different data from the included training and test data. To that end, please include a list of any external packages you depend on (a Pip `requirements.txt` file would work for this purpose), and include instructions on how to set up your code if it's non-trivial.
